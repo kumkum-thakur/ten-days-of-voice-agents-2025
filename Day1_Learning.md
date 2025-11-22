@@ -1,6 +1,11 @@
  # Day 1 - Starter Voice Agent
 
 
+ ##Introduction
+
+This is my Day 1 submission for the AI Voice Agents Challenge by Murf.ai. The goal was to set up a starter voice agent using the provided monorepo, integrate Murf Falcon TTS, and verify real-time interaction through the frontend. This document summarizes my setup, learnings, and screenshots.
+
+
 
  ## Overview
 
@@ -102,6 +107,14 @@ pnpm dev
 -Go to: http://localhost:3000 in your browser
 
 -Start talking to your voice agent and see real-time responses.
+
+## LinkedIn Post
+
+Check out my Day 1 LinkedIn post showing my AI voice agent in action:
+
+🔗 [View on LinkedIn]
+(https://www.linkedin.com/posts/kumkum-thakur_murfaivoiceagentschallenge-10daysofaivoiceagents-activity-7397970749363273728-U7bz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9dmDEBfGjJJC8TiEO9GEv2lmzg0hQbmiM)
+
 
 
 
