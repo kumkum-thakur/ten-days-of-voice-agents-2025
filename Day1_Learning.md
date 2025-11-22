@@ -1,58 +1,76 @@
-\# AI Voice Agents Challenge | Day 1 – Starter Voice Agent
+\# Day 1 - Starter Voice Agent
 
 
 
-\## ✅ Task Completed
+\## Overview
+
+For Day 1 of the AI Voice Agents Challenge, I successfully set up my starter voice agent using the provided monorepo from Murf.ai. This involved running both the frontend (React/Next.js) and backend (LiveKit + Murf Falcon TTS) and verifying that the agent responds in real-time.
 
 
 
-\- Successfully set up the \*\*frontend\*\* (React/Next.js) and \*\*backend\*\* (LiveKit + Murf Falcon TTS)  
+\## What I Did
 
-\- Configured environment variables and tested real-time voice interaction  
+\- Cloned the official repository.
 
-\- Ran the voice agent locally and verified smooth conversation between frontend and backend  
+\- Set up the backend:
 
-\- Backend STT (Deepgram) and TTS (Murf Falcon) integration working perfectly  
+&nbsp; - Configured `.env.local` with LiveKit and Murf Falcon credentials.
 
+&nbsp; - Ran `uv run pytest` → all tests passed ✅
 
+&nbsp; - Started the backend agent using `uv run python src/agent.py dev`
 
-\## 🎯 Learning Outcomes
+\- Set up the frontend:
 
+&nbsp; - Configured `.env.local` with LiveKit credentials.
 
+&nbsp; - Ran `pnpm install` and `pnpm dev`
 
-\- Learned to integrate \*\*Murf Falcon TTS\*\* for ultra-fast, high-quality speech synthesis  
+&nbsp; - Verified real-time voice interaction
 
-\- Understood how \*\*LiveKit Agents\*\* handle real-time voice streaming and participant tokens  
-
-\- Explored STT integration using \*\*Deepgram API\*\* for accurate transcription  
-
-\- Got hands-on experience running a monorepo with both backend and frontend  
-
-
-
-\## 📝 Observations
+\- Fixed environment variables for frontend connection (`route.ts`)
 
 
 
-\- The voice agent responds to user queries in real-time  
+\## Screenshots
 
-\- Audio quality is clear with minimal latency  
+\*\*Frontend Running:\*\*  
 
-\- Environment variable management is critical for connecting frontend and backend  
-
-\- Backend logs provide detailed metrics on TTS/STT performance  
+!\[Frontend Running](screenshots/shot1.png)
 
 
 
-\## 🔗 Demo
+\*\*Agent Responding:\*\*  
+
+!\[Agent Responding](screenshots/shot2.png)
 
 
 
-\- Frontend running locally: `http://localhost:3000`  
+\*(Replace these placeholders with your actual screenshots)\*
 
-\- Backend running locally with logs visible in console  
 
-\- Ready to share a short video demonstrating the voice agent in action
+
+\## Learnings
+
+\- How to integrate LiveKit Agents with a React frontend.
+
+\- Setting up Murf Falcon TTS for ultra-fast, real-time voice responses.
+
+\- Understanding environment variables in Next.js projects.
+
+\- Basics of running Python backend agents with LiveKit.
+
+\- Running tests using `pytest` to ensure everything works.
+
+
+
+\## How to Run This Project
+
+1\. Clone the repo:
+
+&nbsp;  ```bash
+
+&nbsp;  git clone https://github.com/kumkum-thakur/ten-days-of-voice-agents-2025.git
 
 
 
