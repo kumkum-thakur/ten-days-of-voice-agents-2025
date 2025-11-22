@@ -74,24 +74,28 @@ For Day 1 of the AI Voice Agents Challenge, I successfully set up my starter voi
 
 2. Setup the backend 
 
-cd backend
-uv sync                        # Install Python dependencies
-cp .env.example .env.local     # Copy environment file
+-cd backend
+-uv sync                       
+
+-cp .env.example .env.local    
+
 # Edit .env.local with your credentials:
 # LIVEKIT_URL, LIVEKIT_API_KEY, LIVEKIT_API_SECRET, MURF_API_KEY, GOOGLE_API_KEY, DEEPGRAM_API_KEY
 uv run python src/agent.py dev # Start backend agent
 
 3. Run backend tests(optional)
  
-uv run pytest
+-uv run pytest
 
 4. Set up the frontend
 
-cd ../frontend
-pnpm install
-cp .env.example .env.local    # Copy environment file
+-cd ../frontend
+
+-pnpm install
+-cp .env.example .env.local    # Copy environment file
 # Edit .env.local with LiveKit credentials
-pnpm dev                      # Start frontend
+
+pnpm dev                     
 
 5. Open the app
 
