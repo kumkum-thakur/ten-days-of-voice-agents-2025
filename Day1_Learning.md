@@ -1,18 +1,18 @@
-\# Day 1 - Starter Voice Agent
+ # Day 1 - Starter Voice Agent
 
 
 
-\## Overview
+ ## Overview
 
 For Day 1 of the AI Voice Agents Challenge, I successfully set up my starter voice agent using the provided monorepo from Murf.ai. This involved running both the frontend (React/Next.js) and backend (LiveKit + Murf Falcon TTS) and verifying that the agent responds in real-time.
 
 
 
-\## What I Did
+ ## What I Did
 
-\- Cloned the official repository.
+ - Cloned the official repository.
 
-\- Set up the backend:
+ - Set up the backend:
 
 &nbsp; - Configured `.env.local` with LiveKit and Murf Falcon credentials.
 
@@ -28,11 +28,11 @@ For Day 1 of the AI Voice Agents Challenge, I successfully set up my starter voi
 
 &nbsp; - Verified real-time voice interaction
 
-\- Fixed environment variables for frontend connection (`route.ts`)
+ - Fixed environment variables for frontend connection (`route.ts`)
 
 
 
-\## Screenshots
+ ## Screenshots
 
 \*\*Frontend Running:\*\*  
 
@@ -50,27 +50,57 @@ For Day 1 of the AI Voice Agents Challenge, I successfully set up my starter voi
 
 
 
-\## Learnings
+ ## Learnings
 
-\- How to integrate LiveKit Agents with a React frontend.
+ - How to integrate LiveKit Agents with a React frontend.
 
-\- Setting up Murf Falcon TTS for ultra-fast, real-time voice responses.
+ - Setting up Murf Falcon TTS for ultra-fast, real-time voice responses.
 
-\- Understanding environment variables in Next.js projects.
+ - Understanding environment variables in Next.js projects.
 
-\- Basics of running Python backend agents with LiveKit.
+ - Basics of running Python backend agents with LiveKit.
 
-\- Running tests using `pytest` to ensure everything works.
+ - Running tests using `pytest` to ensure everything works.
 
 
 
-\## How to Run This Project
+ ## How to Run This Project
 
-1\. Clone the repo:
+1. Clone the repo:
 
 &nbsp;  ```bash
 
 &nbsp;  git clone https://github.com/kumkum-thakur/ten-days-of-voice-agents-2025.git
+
+2. Setup the backend 
+
+cd backend
+uv sync                        # Install Python dependencies
+cp .env.example .env.local     # Copy environment file
+# Edit .env.local with your credentials:
+# LIVEKIT_URL, LIVEKIT_API_KEY, LIVEKIT_API_SECRET, MURF_API_KEY, GOOGLE_API_KEY, DEEPGRAM_API_KEY
+uv run python src/agent.py dev # Start backend agent
+
+3. Run backend tests(optional)
+ 
+uv run pytest
+
+4. Set up the frontend
+
+cd ../frontend
+pnpm install
+cp .env.example .env.local    # Copy environment file
+# Edit .env.local with LiveKit credentials
+pnpm dev                      # Start frontend
+
+5. Open the app
+
+-Go to: http://localhost:3000 in your browser
+
+-Start talking to your voice agent and see real-time responses.
+
+
+
 
 
 
