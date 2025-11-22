@@ -41,13 +41,18 @@ For Day 1 of the AI Voice Agents Challenge, I successfully set up my starter voi
 
 \*\*Frontend Running:\*\*  
 
-!\[Frontend Running](screenshots/shot1.png)
+!\[Frontend Running](screenshots/frontend.png)
+!\[Frontend Running](screenshots/text.png)
 
+
+\*\*Backend Running:\*\*
+
+!\[Backend Running](screenshots/backend.png)
 
 
 \*\*Agent Responding:\*\*  
 
-!\[Agent Responding](screenshots/shot2.png)
+!\[Agent Responding](screenshots/voice_response.png)
 
 
 
@@ -113,6 +118,7 @@ pnpm dev
 Check out my Day 1 LinkedIn post showing my AI voice agent in action:
 
 🔗 [View on LinkedIn]
+
 (https://www.linkedin.com/posts/kumkum-thakur_murfaivoiceagentschallenge-10daysofaivoiceagents-activity-7397970749363273728-U7bz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9dmDEBfGjJJC8TiEO9GEv2lmzg0hQbmiM)
 
 
