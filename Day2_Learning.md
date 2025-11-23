@@ -104,19 +104,19 @@ The backend now handles order logic, while the frontend still captures real-time
 
 
 
-!\[Frontend Running](screenshots/day2/frontend1.png)
+!\[Frontend Running](screenshots\_day2/frontend1.png)
 
 
 
 \*\*Backend Running:\*\*  
 
-!\[Backend Running](screenshots/day2/backend1.png)
+!\[Backend Running](screenshots\_day2/backend1.png)
 
 
 
 \*\* Order Summary Script:\*\*  
 
-!\[script](screenshots/day2/Script.png)
+!\[script](screenshots\_day2/Script.png)
 
 
 
