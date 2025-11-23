@@ -18,19 +18,19 @@ Day 2 – Coffee Shop Barista Agent
 
 
 
-\-Adding order state management
+-Adding order state management
 
 
 
-\-Integrating friendly barista responses
+-Integrating friendly barista responses
 
 
 
-\-Handling multiple drink orders
+-Handling multiple drink orders
 
 
 
-\-Displaying a neat order summary
+-Displaying a neat order summary
 
 
 
@@ -42,27 +42,27 @@ The backend now handles order logic, while the frontend still captures real-time
 
 
 
-\-Backend Changes
+-Backend Changes
 
 
 
-\-Modified agent.py to include coffee shop persona
+-Modified agent.py to include coffee shop persona
 
 
 
-\-Added orders state object:
+-Added orders state object:
 
 
 
 {
 
-&nbsp; "drinkType": "",
+  "drinkType": "",
 
-&nbsp; "size": "",
+  "size": "",
 
-&nbsp; "extras": \[],
+  "extras": \[],
 
-&nbsp; "quantity": 0
+  "quantity": 0
 
 }
 
@@ -70,31 +70,31 @@ The backend now handles order logic, while the frontend still captures real-time
 
 
 
-\-Implemented conversational logic for:
+-Implemented conversational logic for:
 
 
 
-\-Taking orders
+-Taking orders
 
 
 
-\-Updating order summary
+-Updating order summary
 
 
 
-\-Handling multiple items
+-Handling multiple items
 
 
 
-\-Frontend Changes
+-Frontend Changes
 
 
 
-\-Verified that voice input correctly maps to order state
+-Verified that voice input correctly maps to order state
 
 
 
-\-Displayed text summary for order confirmation
+-Displayed text summary for order confirmation
 
 
 
@@ -104,19 +104,19 @@ The backend now handles order logic, while the frontend still captures real-time
 
 
 
-Frontend Running:
+!\[Frontend Running](screenshots/day2/frontend1.png)
 
 
 
+\*\*Backend Running:\*\*  
 
-
-Backend Running:
-
-
+!\[Backend Running](screenshots/day2/backend1.png)
 
 
 
-Agent Responding:
+\*\* Order Summary Script:\*\*  
+
+!\[script](screenshots/day2/Script.png)
 
 
 
